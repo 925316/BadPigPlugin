@@ -31,10 +31,12 @@
   
   <ItemGroup>
     <Reference Include="Assembly-CSharp">
-      <HintPath>..\..\..\Games\Bad Piggies 2.3.6 Windows\Bad Piggies_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <HintPath>lib\Assembly-CSharp.dll</HintPath>
+      <Private>false</Private>
     </Reference>
     <Reference Include="BepInEx.Harmony">
-      <HintPath>..\..\..\Games\Bad Piggies 2.3.6 Windows\BepInEx\core\BepInEx.Harmony.dll</HintPath>
+      <HintPath>lib\BepInEx.Harmony.dll</HintPath>
+      <Private>false</Private>
     </Reference>
   </ItemGroup>
   
